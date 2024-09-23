@@ -14,13 +14,16 @@
             color: #333;
         }
         header {
+            display: flex; /* Enable flexbox */
+            flex-direction: column; /* Stack items vertically */
+            justify-content: flex-start; /* Align items to the top */
+            align-items: flex-end; /* Align items to the right */
             min-height: 350px;
             background-image: url('./profile_pic.jpg'); /* Background image */
             background-size: cover; /* This makes sure the background covers the header */
             background-position: center; /* Center the image */
-            color:  white; /* Keep text color grey for contrast */
+            color: white; /* Keep text color white for contrast */
             padding: 20px 20px;
-            text-align: top right;
         }
         h1 {
             margin: 0;
@@ -116,8 +119,8 @@
         <h2>Publications</h2>
             <h3>LLMs</h3>
             <ul>
-                <li><href="https://dl.acm.org/doi/abs/10.1145/3665939.3665969" target="_blank"><strong>Yilin Li</strong>, Jobson Deddy. LLMs as Interactive Database Interfaces for Designing Large Queries, June 2024 - SIGMOD 2024, Workshop on Human-in-the-Loop Data Analytics.</li>
-                <li><href="https://dl.acm.org/doi/abs/10.1145/3664646.3665084" target="_blank">Jobson Deddy, <strong>Yilin Li</strong>. Investigating the Potential of Using Large Language Models for Scheduling, July 2024 - AIWARE 2024 Challenge Track.</li>
+                <li><a href="https://dl.acm.org/doi/abs/10.1145/3665939.3665969" target="_blank"><strong>Yilin Li</strong>, Jobson Deddy. LLMs as Interactive Database Interfaces for Designing Large Queries, June 2024 - SIGMOD 2024, Workshop on Human-in-the-Loop Data Analytics.</a></li>
+                <li><a href="https://dl.acm.org/doi/abs/10.1145/3664646.3665084" target="_blank">Jobson Deddy, <strong>Yilin Li</strong>. Investigating the Potential of Using Large Language Models for Scheduling, July 2024 - AIWARE 2024 Challenge Track.</a></li>
             </ul>
             <h3>Data Science</h3>
             <ul>
